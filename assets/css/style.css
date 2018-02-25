@@ -1,0 +1,65 @@
+body{
+    background-image: url('../../assets/images/background.jpg');
+    font-family: 'Montserrat', sans-serif;
+}
+#header{
+    background: rgb(132, 236, 236);
+    width: 250px;
+    border-style: solid;
+    opacity: .7;
+
+}
+
+#instructions{
+    width: 500px;
+    background: rgb(132, 236, 236);
+    border-style: solid;
+    opacity: .7;
+    margin-top: 20px;
+    
+}
+#count-holder{
+    margin-top: 20px;
+    height: 100px;
+    width:130px;
+    border: solid;
+    background: rgb(132, 236, 236);
+    opacity: .7;
+    text-align: center;
+    padding: 50px;
+    float: left;
+
+}
+#wl-holder{
+    margin-top: 20px;
+    height: 100px;
+    width:130px;
+    border: solid;
+    background: rgb(132, 236, 236);
+    opacity: .7;
+    text-align: center;
+    padding: 50px;
+    display: inline-block;
+    margin-left: 20px;
+
+
+}
+.picDiv{
+    clear: both;
+    margin-top: 20px;
+
+
+}
+
+#total-div{
+    width: 130px;
+    height: 100px;
+    background: rgb(132, 236, 236);
+    border-style: solid;
+    opacity: .7;
+    margin-top: 20px;
+    text-align: center;
+    padding: 50px;
+
+    
+}

@@ -7,16 +7,15 @@
     <title>Crystal Collector</title>
     <link rel="reset" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      
 </head>
 
 <body>
-    <div>
+    <div id="header">
         <h1>Crystals Collector!</h1>
     </div>
-    <div>
+    <div id="instructions">
         <p>You will be given a random number at the start of the game.</p>
         <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
         <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
@@ -24,31 +23,35 @@
         <p>Each time when the game starts, the game will change the values of each crystal.</p>
     </div>
 
-    <div class="countDiv">
+    <div id="countDiv">
         <section id="count-holder">
+            <p>Number to Guess</p>
             0
         </section>
-        <aside>
+        <aside id="wl-holder">
                 <p id="wins"> Wins: 0</p>
                 <p id="losses">Losses: 0</p>
         </aside>
     </div>
 
     <div class="picDiv">
-        <img id="diamond" src="assets/images/diamond.jpg" style="height:100px; width:100px;">
-        <img id="blueGem" src="assets/images/bluegem.jpg" style="height:100px; width:100px;">
-        <img id="pinkGem" src="assets/images/pinkgem.jpg" style="height:100px; width:100px;">
-        <img id="purpleGem" src="assets/images/purplegem.jpg" style="height:100px; width:100px;">
+        <img id="diamond" src="assets/images/diamond.jpg" style="height:100px; width:100px;" class= "gems">
+        <img id="blueGem" src="assets/images/bluegem.jpg" style="height:100px; width:100px;" class= "gems">
+        <img id="pinkGem" src="assets/images/pinkgem.jpg" style="height:100px; width:100px;" class= "gems">
+        <img id="purpleGem" src="assets/images/purplegem.jpg" style="height:100px; width:100px;" class= "gems">
     </div>
 
     <br>
+    <div id="total-div">
+        <p id="score">Your total score is:</p>
 
-    <p id="score">Your total score is:</p>
-
-    <section id="total">
+        <section id="total">
         0
-    </section>
+        </section>
+    </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/game.js"></script> 
 
 </body>
 </html>
